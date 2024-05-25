@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  app:
+    image: registry.gitlab.com/eledevo/todolist-2-layer-be:latest
+    ports:
+      - "6040:8080"
+    restart: unless-stopped

@@ -1,0 +1,38 @@
+# Binaries and dependencies
+*.class
+*.jar
+target/
+# Log files
+logs/
+*.log
+# IDE files
+.idea/
+*.iml
+# OS files
+.DS_Store
+# Spring Boot files
+.mvn/
+mvnw
+mvnw.cmd
+# Docker files
+Dockerfile
+docker-compose.yml
+# Git files
+.git/
+# Build artifacts
+build/
+# IntelliJ
+*.iws
+*.iml
+*.ipr
+# Eclipse
+.project
+.classpath
+.settings/
+# STS
+.springBeans
+IntelliJ
+/out/
+
+# Includes necessary files & folders
+!target/todolist-2-layer-be-1.0.0.jar
